@@ -132,24 +132,4 @@ function clickTest() {
 
 
 //The main function for the game//
-function game() {
-    var result = ""
-    for (let round = 0; round < 5; round++) {
-        gameRound()
-        if (userScore == 5) {
-            round ++;
-            result = `You win! Final scores:\nUser: ${userScore}\nComputer${computerScore}`
-        }
-        else if(computerScore == 5) {
-            round++
-            result = `You lose! Final scores:\nUser: ${userScore}\nComputer${computerScore}`
-        }
-    } return result
-}
-
-
-
-game()
-
-
 
