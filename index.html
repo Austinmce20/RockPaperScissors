@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <h2>Best of 5</h2>
+
+    <div id="scores-div">
+        <p id="user-score"></p>
+        <p id="computer-score"></p>
+    </div>
+
+    <div id="buttons-div">
+        <button id="rock" class="btn btn-group">Rock</button>
+        <button id="paper" class="btn btn-group">Paper</button>
+        <button id="scissors" class="btn btn-group">Scissors</button>
+    </div>
+
+    <div id="last-choice-div">
+        <div id ="user-last-div">
+            <h4>User Last Move:</h4>
+            <p id="user-last"></p>
+        </div>
+        <div id="computer-last-div">
+            <h4>Computer last move:</h4>
+            <p id="computer-last"></p>
+        </div>
+    </div>
+
+    <div id="go-again-div">
+        <p id="go-again"></p>
+    </div>
+
+    <button class="btn" id="test">Output test</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
